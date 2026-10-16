@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScanContact — vos contacts et réseaux en un seul scan</title>
+  <meta name="description" content="ScanContact : la carte de visite virtuelle qui partage votre numéro, WhatsApp, Instagram, TikTok et votre photo en un seul scan de QR code. Gratuit pour Android, lisible sur iPhone.">
+  <meta name="theme-color" content="#2563EB">
+  <meta property="og:title" content="ScanContact — vos contacts en un seul scan">
+  <meta property="og:description" content="Montrez votre QR code : l'autre reçoit votre photo, vos numéros et vos réseaux. Gratuit pour Android.">
+  <meta property="og:image" content="https://jesimel9.github.io/scancontact/assets/img/icone.png">
+  <meta property="og:url" content="https://jesimel9.github.io/scancontact/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="canonical" href="https://jesimel9.github.io/scancontact/">
+  <link rel="icon" type="image/png" href="assets/img/icone-64.png">
+  <link rel="apple-touch-icon" href="assets/img/icone.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <!-- ===================== EN-TÊTE ===================== -->
+  <header class="nav" id="haut">
+    <div class="wrap nav__in">
+      <a class="brand" href="#haut" aria-label="ScanContact, retour en haut">
+        <img src="assets/img/icone-64.png" alt="" width="36" height="36">
+        <span>Scan<b>Contact</b></span>
+      </a>
+      <nav class="nav__links" aria-label="Navigation principale">
+        <a href="#comment">Comment ça marche</a>
+        <a href="#pour-qui">Pour qui ?</a>
+        <a href="#fonctions">Fonctions</a>
+        <a href="#iphone">iPhone</a>
+        <a href="#faq">Questions</a>
+        <a href="#soutenir">Soutenir</a>
+      </nav>
+      <a class="btn btn--cta btn--sm" href="#telecharger">Télécharger</a>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- ===================== HÉROS ===================== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="wrap hero__in">
+        <div class="hero__text reveal">
+          <p class="pill"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2l2.4 6.9H22l-6 4.4 2.3 7L12 16l-6.3 4.3 2.3-7-6-4.4h7.6z"/></svg>Gratuit · Android · lisible sur iPhone</p>
+          <h1>Vos contacts et vos réseaux,<br><span class="grad">partagés en un seul scan.</span></h1>
+          <p class="lead">Créez votre carte de visite virtuelle avec votre photo, votre numéro, WhatsApp, Instagram, TikTok… Montrez votre QR code : la personne en face reçoit tout, instantanément. Plus de pseudo à épeler, plus de carte papier perdue.</p>
+          <div class="hero__cta">
+            <a class="btn btn--cta" href="#telecharger" data-telechargement="hero">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
+              Télécharger pour Android
+            </a>
+            <a class="btn btn--ghost" href="#comment">Voir comment ça marche</a>
+          </div>
+          <ul class="hero__facts">
+            <li><b>1</b> scan pour tout partager</li>
+            <li><b>10</b> contacts &amp; réseaux</li>
+            <li><b>0</b> internet pour scanner</li>
+          </ul>
+        </div>
+        <div class="hero__phones reveal" aria-hidden="true">
+          <figure class="phone phone--back"><img src="assets/img/ecran-contact.webp" alt="" width="390" height="844"></figure>
+          <figure class="phone phone--front"><img src="assets/img/ecran-accueil.webp" alt="" width="390" height="844"></figure>
+          <div class="float float--a"><img src="assets/img/createur-mini.jpg" alt=""><span><b>Carte détectée</b><br>3 réseaux · photo</span></div>
+          <div class="float float--b"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>Ajouté au répertoire</div>
+        </div>
+      </div>
+      <div class="kente" aria-hidden="true"></div>
+    </section>
+
+    <!-- ===================== COMMENT ÇA MARCHE ===================== -->
+    <section class="section" id="comment">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Comment ça marche</p>
+          <h2>Trois étapes, dix secondes.</h2>
+          <p>Pas besoin que l'autre personne s'inscrive : elle scanne, elle reçoit.</p>
+        </header>
+        <ol class="steps">
+          <li class="step reveal">
+            <figure class="phone phone--sm"><img src="assets/img/ecran-creer.webp" alt="Écran Créer ma carte : nom, profession, numéro, WhatsApp, Instagram avec cases à cocher" loading="lazy" width="390" height="844"></figure>
+            <div><span class="step__n">1</span><h3>Créez votre carte</h3><p>Ajoutez votre photo, votre profession et vos réseaux. Le bouton <i>lien</i> ouvre Instagram, TikTok ou Facebook et récupère l'adresse de votre profil tout seul. Cochez seulement ce que vous voulez partager.</p></div>
+          </li>
+          <li class="step reveal">
+            <figure class="phone phone--sm"><img src="assets/img/ecran-carte.webp" alt="Écran Ma carte : grand QR code avec la photo et les icônes des réseaux" loading="lazy" width="390" height="844"></figure>
+            <div><span class="step__n">2</span><h3>Montrez votre QR code</h3><p>Votre carte s'affiche en grand avec votre QR code. Vous pouvez aussi l'envoyer en image, en fichier texte ou en fiche contact par WhatsApp ou e-mail.</p></div>
+          </li>
+          <li class="step reveal">
+            <figure class="phone phone--sm"><img src="assets/img/ecran-contact.webp" alt="Écran Contact reçu : photo, nom, profession et liens vers les réseaux" loading="lazy" width="390" height="844"></figure>
+            <div><span class="step__n">3</span><h3>L'autre reçoit tout</h3><p>En un scan, il voit votre photo, votre nom, votre profession et vos réseaux. Un toucher sur une icône ouvre directement votre profil WhatsApp, Instagram ou TikTok. Il peut vous ajouter à son répertoire.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== POUR QUI ===================== -->
+    <section class="section section--tint" id="pour-qui">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Pour qui ?</p>
+          <h2>Une carte, mille rencontres.</h2>
+          <p>Des campus aux marchés, des salons professionnels aux boutiques : partout où l'on échange un numéro.</p>
+        </header>
+        <div class="uses">
+          <article class="use use--young reveal">
+            <div class="use__art" aria-hidden="true">
+              <svg viewBox="0 0 220 140">
+                <rect x="20" y="22" width="62" height="104" rx="14" fill="#fff" opacity=".95"/>
+                <rect x="138" y="14" width="62" height="104" rx="14" fill="#fff" opacity=".95"/>
+                <g fill="#4B3FE0"><rect x="31" y="40" width="16" height="16" rx="4"/><rect x="55" y="40" width="16" height="16" rx="4"/><rect x="31" y="64" width="16" height="16" rx="4"/><circle cx="63" cy="72" r="7" fill="#FF7A2F"/></g>
+                <circle cx="169" cy="45" r="14" fill="#FFB13B"/><rect x="150" y="68" width="38" height="7" rx="3.5" fill="#C7D2FE"/><rect x="156" y="81" width="26" height="7" rx="3.5" fill="#E0E7FF"/>
+                <path d="M92 70 C110 50, 120 50, 130 62" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="2 9"/>
+                <path d="M124 52 l8 10 -12 3" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <g fill="#fff"><circle cx="104" cy="112" r="6"/><rect x="108" y="88" width="4" height="25" rx="2"/><path d="M112 88 q12 4 10 14 q-4-8-10-7z"/></g>
+              </svg>
+            </div>
+            <h3>Jeunes &amp; étudiants</h3>
+            <p>Au campus, en soirée, au concert ou au maquis : échangez Instagram, Snapchat et TikTok sans épeler votre pseudo. Votre photo arrive avec, on se souvient de vous.</p>
+            <ul class="use__tags"><li>Instagram</li><li>Snapchat</li><li>TikTok</li></ul>
+          </article>
+
+          <article class="use use--business reveal">
+            <div class="use__art" aria-hidden="true">
+              <svg viewBox="0 0 220 140">
+                <rect x="30" y="34" width="160" height="92" rx="16" fill="#fff" opacity=".95"/>
+                <rect x="44" y="50" width="56" height="56" rx="10" fill="#E0E7FF"/>
+                <g fill="#2563EB"><rect x="51" y="57" width="14" height="14" rx="3"/><rect x="79" y="57" width="14" height="14" rx="3"/><rect x="51" y="85" width="14" height="14" rx="3"/><rect x="72" y="78" width="7" height="7" rx="2"/><rect x="85" y="90" width="8" height="8" rx="2"/></g>
+                <rect x="112" y="54" width="62" height="10" rx="5" fill="#2563EB"/><rect x="112" y="72" width="48" height="8" rx="4" fill="#C7D2FE"/><rect x="112" y="88" width="56" height="8" rx="4" fill="#E0E7FF"/>
+                <path d="M84 34 v-12 a6 6 0 0 1 6-6 h40 a6 6 0 0 1 6 6 v12" stroke="#fff" stroke-width="7" fill="none"/>
+              </svg>
+            </div>
+            <h3>Entreprises</h3>
+            <p>Équipez toute l'équipe commerciale de cartes aux couleurs de l'entreprise. Aux salons, forums et rendez-vous clients, chaque contact repart avec vos coordonnées et votre site, sans imprimer une seule carte.</p>
+            <ul class="use__tags"><li>Salons</li><li>Commerciaux</li><li>Couleurs de la marque</li></ul>
+          </article>
+
+          <article class="use use--pro reveal">
+            <div class="use__art" aria-hidden="true">
+              <svg viewBox="0 0 220 140">
+                <rect x="26" y="30" width="118" height="78" rx="10" fill="#fff" opacity=".95"/>
+                <rect x="14" y="108" width="142" height="10" rx="5" fill="#fff"/>
+                <circle cx="62" cy="62" r="16" fill="#FFB13B"/><rect x="88" y="52" width="44" height="8" rx="4" fill="#7C3AED"/><rect x="88" y="68" width="32" height="7" rx="3.5" fill="#DDD6FE"/>
+                <rect x="160" y="40" width="46" height="80" rx="12" fill="#fff"/>
+                <circle cx="183" cy="64" r="11" fill="#22C55E"/><path d="M178 64 l4 4 7-8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="170" y="84" width="26" height="6" rx="3" fill="#DDD6FE"/><rect x="174" y="96" width="18" height="6" rx="3" fill="#EDE9FE"/>
+              </svg>
+            </div>
+            <h3>Professionnels &amp; indépendants</h3>
+            <p>Consultant, artisan, photographe, coiffeuse, avocat, développeur : votre profession, votre WhatsApp et votre LinkedIn dans une carte que vos clients enregistrent directement dans leurs contacts.</p>
+            <ul class="use__tags"><li>WhatsApp</li><li>LinkedIn</li><li>Fiche contact</li></ul>
+          </article>
+
+          <article class="use use--shop reveal">
+            <div class="use__art" aria-hidden="true">
+              <svg viewBox="0 0 220 140">
+                <defs><pattern id="pagne" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#F2B41B"/><rect width="20" height="5" fill="#16803C"/><rect y="10" width="20" height="3" fill="#C62828"/><rect x="0" y="5" width="5" height="5" fill="#111"/><rect x="10" y="15" width="5" height="5" fill="#111"/></pattern></defs>
+                <path d="M20 40 h180 l-10 26 H30z" fill="url(#pagne)"/>
+                <path d="M30 66 h160 v8 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0 a10 10 0 0 1-20 0z" fill="#fff" opacity=".9"/>
+                <rect x="36" y="86" width="148" height="44" rx="6" fill="#fff" opacity=".95"/>
+                <rect x="88" y="92" width="44" height="34" rx="6" fill="#111827"/>
+                <g fill="#fff"><rect x="94" y="97" width="9" height="9" rx="2"/><rect x="117" y="97" width="9" height="9" rx="2"/><rect x="94" y="112" width="9" height="9" rx="2"/><circle cx="121" cy="116" r="4" fill="#FF7A2F"/></g>
+                <rect x="48" y="96" width="30" height="7" rx="3.5" fill="#FDE68A"/><rect x="142" y="96" width="30" height="7" rx="3.5" fill="#FDE68A"/>
+              </svg>
+            </div>
+            <h3>Commerçants</h3>
+            <p>Imprimez votre QR code et posez-le sur le comptoir, l'étal ou la vitrine. Vos clients récupèrent le WhatsApp et le Facebook de la boutique pour commander, voir les nouveautés et vous recommander.</p>
+            <ul class="use__tags"><li>Boutique</li><li>Marché</li><li>Commandes WhatsApp</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FONCTIONS ===================== -->
+    <section class="section" id="fonctions">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Fonctions</p>
+          <h2>Tout ce qu'une carte de visite aurait dû faire.</h2>
+        </header>
+        <div class="features">
+          <div class="feature reveal"><span class="ic ic--blue"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></span><h3>Votre photo voyage avec</h3><p>Une miniature de votre photo est rangée dans le QR code : l'autre vous reconnaît du premier coup d'œil.</p></div>
+          <div class="feature reveal"><span class="ic ic--violet"><svg viewBox="0 0 24 24"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg></span><h3>Liens directs</h3><p>Chaque icône ouvre le vrai profil : WhatsApp, Instagram, TikTok, Facebook, Snapchat, LinkedIn, X, YouTube, e-mail.</p></div>
+          <div class="feature reveal"><span class="ic ic--orange"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1 0 1.5-.8 1.5-1.6 0-1.3-1-1.4-1-2.6 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8z"/><circle cx="7.5" cy="11" r="1.2"/><circle cx="10" cy="7" r="1.2"/><circle cx="15" cy="7" r="1.2"/></svg></span><h3>Motifs de pagne</h3><p>Kente, Kita baoulé, Bogolan, Wax, Adinkra, Faso Dan Fani… ou votre propre image, sur une carte de la couleur de votre choix.</p></div>
+          <div class="feature reveal"><span class="ic ic--teal"><svg viewBox="0 0 24 24"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></svg></span><h3>Jour &amp; nuit</h3><p>Un design en verre inspiré de l'iPhone, en mode clair, sombre ou automatique, avec le fond d'écran de votre choix.</p></div>
+          <div class="feature reveal"><span class="ic ic--green"><svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"/></svg></span><h3>Vous choisissez</h3><p>Une case à cocher par information : partagez votre photo et votre profession seulement si vous le souhaitez.</p></div>
+          <div class="feature reveal"><span class="ic ic--pink"><svg viewBox="0 0 24 24"><path d="M4 4h10l6 6v10H4z"/><path d="M14 4v6h6"/></svg></span><h3>Fichier texte &amp; fiche contact</h3><p>Envoyez votre carte en .txt ou en .vcf : n'importe quel téléphone l'ouvre et l'ajoute au répertoire.</p></div>
+          <div class="feature reveal"><span class="ic ic--blue"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></span><h3>Historique &amp; recherche</h3><p>Retrouvez toutes les cartes scannées, enregistrez les plus importantes, cherchez par nom.</p></div>
+          <div class="feature reveal"><span class="ic ic--violet"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span><h3>Compte sécurisé</h3><p>Connexion avec votre compte Google, sans mot de passe à retenir.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALERIE ===================== -->
+    <section class="section section--dark" id="captures" aria-labelledby="captures-titre">
+      <div class="wrap">
+        <header class="section__head section__head--light reveal">
+          <p class="eyebrow">Aperçu</p>
+          <h2 id="captures-titre">Belle à regarder, simple à utiliser.</h2>
+        </header>
+      </div>
+      <div class="gallery" tabindex="0" aria-label="Captures d'écran de l'application, faites défiler horizontalement">
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-accueil.webp" alt="Accueil : carte de couleur avec motif de pagne et QR code" loading="lazy" width="390" height="844"></div><figcaption>Accueil</figcaption></figure>
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-perso.webp" alt="Personnalisation : couleurs et motifs de pagne" loading="lazy" width="390" height="844"></div><figcaption>Personnaliser la carte</figcaption></figure>
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-contact.webp" alt="Contact reçu avec photo et réseaux" loading="lazy" width="390" height="844"></div><figcaption>Contact reçu</figcaption></figure>
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-jour.webp" alt="Accueil en mode jour" loading="lazy" width="390" height="844"></div><figcaption>Mode jour</figcaption></figure>
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-apparence.webp" alt="Apparence : jour, nuit et fonds d'écran" loading="lazy" width="390" height="844"></div><figcaption>Apparence</figcaption></figure>
+        <figure><div class="phone phone--sm"><img src="assets/img/ecran-carte.webp" alt="Ma carte en grand avec le QR code" loading="lazy" width="390" height="844"></div><figcaption>Ma carte</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ===================== IPHONE ===================== -->
+    <section class="section" id="iphone">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">Et sur iPhone ?</p>
+          <h2>Pas d'application ? Aucun problème.</h2>
+          <p>ScanContact est une application Android, mais votre carte reste lisible par tout le monde :</p>
+          <ul class="checks">
+            <li><b>Appareil photo de l'iPhone :</b> en visant votre QR code, il affiche votre nom, vos numéros et les liens de vos réseaux, cliquables.</li>
+            <li><b>Fichier texte :</b> envoyez votre carte en .txt, elle s'ouvre sur tous les téléphones.</li>
+            <li><b>Fiche contact :</b> envoyez-la en .vcf, l'iPhone propose « Ajouter aux contacts », avec votre photo.</li>
+          </ul>
+        </div>
+        <div class="iphone-card reveal" aria-hidden="true">
+          <div class="iphone-card__notif">
+            <img src="assets/img/icone-64.png" alt="">
+            <div><b>Carte ScanContact</b><p>Nom : Awa Koné<br>Profession : Styliste<br>WhatsApp : wa.me/2250700000000<br>Instagram : instagram.com/awa.style</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TÉLÉCHARGER ===================== -->
+    <section class="section section--tint" id="telecharger">
+      <div class="wrap">
+        <div class="download reveal">
+          <div class="download__main">
+            <img class="download__icon" src="assets/img/icone.png" alt="Icône de ScanContact" width="112" height="112">
+            <h2>Téléchargez ScanContact</h2>
+            <p>Gratuit · Android 7 ou plus récent · version <span data-version>1.0.0</span></p>
+            <a class="btn btn--cta btn--lg" id="lien-apk" href="telechargement/ScanContact-1.0.0.apk" download data-telechargement="principal">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
+              Télécharger l'application <small data-taille></small>
+            </a>
+            <p class="download__alt">L'installation échoue sur un téléphone ancien ?
+              <a id="lien-apk-compatible" href="telechargement/ScanContact-1.0.0-compatible.apk" download data-telechargement="compatible">Téléchargez la version compatible <span data-taille-compatible></span></a></p>
+            <div class="download__qr" id="qr-zone" hidden>
+              <div id="qr" aria-hidden="true"></div>
+              <p>Sur ordinateur ? Scannez ce code avec votre téléphone pour l'ouvrir directement.</p>
+            </div>
+          </div>
+          <ol class="install">
+            <li><span>1</span><div><b>Téléchargez le fichier</b><p>Touchez le bouton depuis votre téléphone Android.</p></div></li>
+            <li><span>2</span><div><b>Ouvrez-le</b><p>Dans la notification de téléchargement ou l'application Fichiers.</p></div></li>
+            <li><span>3</span><div><b>Autorisez l'installation</b><p>Android demande d'autoriser les « applications inconnues » pour votre navigateur : c'est normal pour une app installée hors Play Store.</p></div></li>
+            <li><span>4</span><div><b>Ouvrez ScanContact</b><p>Connectez-vous avec Google, créez votre carte… et faites-vous scanner !</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== QUESTIONS ===================== -->
+    <section class="section" id="faq">
+      <div class="wrap narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2>Bon à savoir</h2>
+        </header>
+        <div class="faq">
+          <details class="reveal"><summary>ScanContact est-il gratuit ?</summary><p>Oui, l'application est gratuite. Si elle vous rend service, vous pouvez <a href="#soutenir">soutenir le projet</a> par un petit don.</p></details>
+          <details class="reveal"><summary>Faut-il internet pour scanner ?</summary><p>Non. Toutes les informations sont dans le QR code : on peut scanner une carte sans connexion. Internet sert seulement à se connecter avec Google et à ouvrir les réseaux sociaux.</p></details>
+          <details class="reveal"><summary>La personne qui scanne doit-elle avoir l'application ?</summary><p>Avec ScanContact, elle reçoit votre carte complète avec votre photo. Sans l'application, un iPhone ou un Android lit quand même vos informations en texte avec son appareil photo.</p></details>
+          <details class="reveal"><summary>Pourquoi Android affiche-t-il un avertissement à l'installation ?</summary><p>Parce que l'application est installée depuis ce site et pas depuis le Play Store. Le fichier est signé par le créateur de ScanContact. Téléchargez-le uniquement depuis ce site officiel.</p></details>
+          <details class="reveal"><summary>Que devient mon nom et mon e-mail Google ?</summary><p>Ils servent uniquement à votre compte ScanContact et ne sont jamais vendus. Votre carte, vos réseaux et les contacts scannés restent sur votre téléphone. Voir la <a href="confidentialite.html">politique de confidentialité</a>.</p></details>
+          <details class="reveal"><summary>Puis-je choisir ce que je partage ?</summary><p>Oui : chaque information (photo, profession, numéro, chaque réseau) a sa propre case à cocher. Ce qui n'est pas coché n'est jamais mis dans le QR code.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CRÉATEUR ===================== -->
+    <section class="section section--tint" id="createur">
+      <div class="wrap creator reveal">
+        <img src="assets/img/createur.jpg" alt="Portrait de Jean Jesimel Yao" width="160" height="160" loading="lazy">
+        <div>
+          <p class="eyebrow">Le créateur</p>
+          <h2>Yao Kouassi Jean Jesimel</h2>
+          <p>Technicien en génie électrique et électronique basé à Abidjan, Jean Jesimel a imaginé ScanContact pour que chacun puisse partager ses contacts professionnels et ses réseaux en un seul geste, sur Android comme sur iPhone.</p>
+          <a class="btn btn--ghost btn--sm" href="mailto:yjesimel4@gmail.com">Écrire au créateur</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOUTENIR ===================== -->
+    <section class="section" id="soutenir">
+      <div class="wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Soutenir le projet</p>
+          <h2>Aidez ScanContact à grandir</h2>
+          <p>ScanContact est gratuit et développé par un créateur indépendant. Un don ou une idée, chaque geste compte.</p>
+        </header>
+        <div class="support">
+          <!-- Don avec Wave -->
+          <article class="donate reveal" aria-labelledby="don-titre">
+            <span class="donate__heart" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.8 4.5c2.2 0 3.7 1.2 5.2 3 1.5-1.8 3-3 5.2-3 3.8 0 5.9 3.9 4.4 7.3C19.5 16.4 12 21 12 21z"/></svg></span>
+            <h3 id="don-titre">Faire un don</h3>
+            <p>Votre don soutient directement le créateur et l'aide à faire vivre et à améliorer l'application.</p>
+            <a class="btn btn--wave btn--lg" id="lien-don" href="https://pay.wave.com/m/M_ci_rcRuVRkKnG3c/c/ci/?amount=1000" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.8 4.5c2.2 0 3.7 1.2 5.2 3 1.5-1.8 3-3 5.2-3 3.8 0 5.9 3.9 4.4 7.3C19.5 16.4 12 21 12 21z"/></svg>
+              Faire un don avec Wave
+            </a>
+            <p class="donate__note">Montant suggéré : <b data-don-montant>1 000 FCFA</b>. Le paiement se fait sur la page officielle de Wave (pay.wave.com), dans un nouvel onglet.</p>
+          </article>
+
+          <!-- Suggestions -->
+          <article class="ideas reveal" aria-labelledby="idee-titre">
+            <h3 id="idee-titre">Une idée ? Une suggestion ?</h3>
+            <p>Une fonction qui manque, un problème, une remarque : le créateur lit tous les messages.</p>
+            <form id="form-idee" novalidate>
+              <fieldset class="chips">
+                <legend>Type de message</legend>
+                <label><input type="radio" name="type" value="Idée" checked><span>Idée</span></label>
+                <label><input type="radio" name="type" value="Problème"><span>Problème</span></label>
+                <label><input type="radio" name="type" value="Autre"><span>Autre</span></label>
+              </fieldset>
+              <div class="field">
+                <label for="idee-message">Votre message</label>
+                <textarea id="idee-message" name="message" rows="5" minlength="3" maxlength="1000" required aria-describedby="idee-compteur" placeholder="Exemple : ajouter Telegram dans les réseaux…"></textarea>
+                <small id="idee-compteur" class="field__count">0 / 1000</small>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="idee-nom">Votre nom <span>(facultatif)</span></label>
+                  <input id="idee-nom" name="nom" type="text" maxlength="80" autocomplete="name">
+                </div>
+                <div class="field">
+                  <label for="idee-email">Votre e-mail <span>(facultatif)</span></label>
+                  <input id="idee-email" name="email" type="email" maxlength="120" autocomplete="email" aria-describedby="idee-email-aide">
+                  <small id="idee-email-aide" class="field__help">Pour que le créateur puisse vous répondre.</small>
+                </div>
+              </div>
+              <!-- Piège à robots : un humain ne voit pas ce champ -->
+              <div class="hp" aria-hidden="true"><label for="idee-site">Site web</label><input id="idee-site" name="site" type="text" tabindex="-1" autocomplete="off"></div>
+              <button class="btn btn--cta" type="submit" id="idee-envoyer">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-2.5-6.5L4 12z"/></svg>
+                Envoyer la suggestion
+              </button>
+              <p class="form__status" id="idee-statut" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="kente kente--thin" aria-hidden="true"></div>
+    <div class="wrap foot__in">
+      <a class="brand" href="#haut"><img src="assets/img/icone-64.png" alt="" width="32" height="32"><span>Scan<b>Contact</b></span></a>
+      <p>Conçu à Abidjan, Côte d'Ivoire · © <span data-annee>2026</span> ScanContact</p>
+      <nav aria-label="Liens du pied de page"><a href="confidentialite.html">Confidentialité</a><a href="#soutenir">Faire un don</a><a href="mailto:yjesimel4@gmail.com">Contact</a></nav>
+    </div>
+  </footer>
+
+  <script src="assets/config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
