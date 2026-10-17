@@ -1,0 +1,17 @@
+{
+  "version": "1.0.5",
+  "build": 6,
+  "notes": "Photo des contacts nette (HD), apparence de chaque carte après un scan, connexion Google native et par e-mail, mises à jour automatiques.",
+  "apk": {
+    "arm64-v8a": {
+      "file": "telechargement/ScanContact-1.0.5.apk",
+      "sha256": "5ac4f47187bccb5226803e9b4f67712591f176d96d3908e568c6feb72ea34641",
+      "size": 26968100
+    },
+    "armeabi-v7a": {
+      "file": "telechargement/ScanContact-1.0.5-compatible.apk",
+      "sha256": "80e4b6da7316706a029ad95dead355aa58bbf659911f6d33bdd476d36aa9bfa2",
+      "size": 22805142
+    }
+  }
+}

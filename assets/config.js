@@ -17,12 +17,6 @@ window.SCANCONTACT = {
     montant: '1 000 FCFA',
   },
 
-  // Fichiers à télécharger (dans le dossier "telechargement")
-  version: '1.0.0',
-  apk: {
-    // Téléphones récents (64 bits) : la grande majorité
-    recommande: { url: 'telechargement/ScanContact-1.0.0.apk', taille: '25 Mo' },
-    // Téléphones plus anciens (32 bits), si l'installation échoue
-    compatible: { url: 'telechargement/ScanContact-1.0.0-compatible.apk', taille: '21 Mo' },
-  },
+  // La version et les fichiers à télécharger sont dans
+  // ../version.json (écrit par outils/preparer_version.py).
 };

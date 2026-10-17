@@ -24,24 +24,28 @@
   }
 
   // ---------- Téléchargement ----------
-  var apk = (cfg.apk && cfg.apk.recommande) || {};
+  // La dernière version est décrite dans version.json (le même
+  // fichier que lisent les applications pour se mettre à jour).
   var link = document.getElementById('lien-apk');
-  if (link && apk.url) link.href = apk.url;
-  document.querySelectorAll('[data-taille]').forEach(function (el) {
-    el.textContent = apk.taille ? '(' + apk.taille + ')' : '';
-  });
-  var compat = (cfg.apk && cfg.apk.compatible) || {};
   var link2 = document.getElementById('lien-apk-compatible');
-  if (link2 && compat.url) link2.href = compat.url;
-  document.querySelectorAll('[data-taille-compatible]').forEach(function (el) {
-    el.textContent = compat.taille ? '(' + compat.taille + ')' : '';
-  });
+  function mo(octets) { return octets ? '(' + Math.round(octets / 1048576) + ' Mo)' : ''; }
+  if (window.fetch) {
+    fetch('version.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (v) {
+        if (!v || !v.apk) return;
+        var a = v.apk['arm64-v8a'] || {}, b = v.apk['armeabi-v7a'] || {};
+        if (link && a.file) link.href = a.file;
+        if (link2 && b.file) link2.href = b.file;
+        document.querySelectorAll('[data-taille]').forEach(function (el) { el.textContent = mo(a.size); });
+        document.querySelectorAll('[data-taille-compatible]').forEach(function (el) { el.textContent = mo(b.size); });
+        document.querySelectorAll('[data-version]').forEach(function (el) { el.textContent = v.version || el.textContent; });
+      })
+      .catch(function () { /* les liens par défaut de la page restent */ });
+  }
   if (link2) {
     link2.addEventListener('click', function () { logEvent('telechargement', 'apk-compatible'); });
   }
-  document.querySelectorAll('[data-version]').forEach(function (el) {
-    el.textContent = cfg.version || el.textContent;
-  });
   document.querySelectorAll('[data-annee]').forEach(function (el) {
     el.textContent = new Date().getFullYear();
   });
