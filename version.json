@@ -1,17 +1,17 @@
 {
-  "version": "1.0.6",
-  "build": 7,
-  "notes": "Contacts déjà scannés reconnus (pas de doublon), réseaux en icônes cliquables, suppression d'un contact.",
+  "version": "1.0.7",
+  "build": 8,
+  "notes": "Nom et profession bien lisibles, nouveau motif bogolan, démarrage 3 fois plus rapide",
   "apk": {
     "arm64-v8a": {
-      "file": "telechargement/ScanContact-1.0.6.apk",
-      "sha256": "6cfd8718fb3a322a7c3cfab5fbb95c0a2e6e5a88004ad763f512dd23681685af",
-      "size": 26968272
+      "file": "telechargement/ScanContact-1.0.7.apk",
+      "sha256": "b971ffb827d7e257bb247c001bc173037cb729576c79b334562b9c9f08d768c5",
+      "size": 26970120
     },
     "armeabi-v7a": {
-      "file": "telechargement/ScanContact-1.0.6-compatible.apk",
-      "sha256": "ffcb99e6e13510d8b39af4ac4af3d349939cf6c82e9bc83a06a2a49e039afb2d",
-      "size": 22821702
+      "file": "telechargement/ScanContact-1.0.7-compatible.apk",
+      "sha256": "a154fff22edd3817736c72e8faef2b29f9c7ce15c891978eabb353a5164255c1",
+      "size": 22823546
     }
   }
 }
