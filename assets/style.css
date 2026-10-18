@@ -352,6 +352,17 @@ p { margin: 0 0 1em; }
 /* Apparition au défilement */
 .reveal { opacity: 0; transform: translateY(22px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.is-in { opacity: 1; transform: none; }
+/* Guide des liens */
+.guide-intro { color: var(--ink-2); font-size: 1.08rem; max-width: 620px; margin-inline: auto; }
+.guide-astuce { padding: 26px 28px; border-radius: var(--radius); background: var(--tint); border: 1px solid var(--line); margin-bottom: 18px; }
+.guide-astuce h3 { margin: 0 0 10px; }
+.guide-astuce ol, .guide ol { padding-left: 1.3em; margin: 8px 0 12px; display: grid; gap: 6px; color: var(--ink-2); }
+.guide-note { margin: 6px 0 0; color: var(--ink-2); font-size: .95rem; }
+.guide summary { display: flex; align-items: center; gap: 12px; }
+.pastille { display: inline-grid; place-items: center; flex: none; width: 30px; height: 30px; border-radius: 9px; color: #fff; font: 700 .78rem/1 var(--font-title); }
+.guide-exemple { font-size: .9rem; }
+.guide code, .guide-note code { font-size: .86em; background: var(--tint); padding: 2px 6px; border-radius: 6px; word-break: break-all; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }

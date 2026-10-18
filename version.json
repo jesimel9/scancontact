@@ -1,17 +1,17 @@
 {
-  "version": "1.0.7",
-  "build": 8,
-  "notes": "Nom et profession bien lisibles, nouveau motif bogolan, démarrage 3 fois plus rapide",
+  "version": "1.0.8",
+  "build": 9,
+  "notes": "Affiche PDF à imprimer (A3 à A6), QR code reçu en photo lu depuis la galerie",
   "apk": {
     "arm64-v8a": {
-      "file": "telechargement/ScanContact-1.0.7.apk",
-      "sha256": "b971ffb827d7e257bb247c001bc173037cb729576c79b334562b9c9f08d768c5",
-      "size": 26970120
+      "file": "telechargement/ScanContact-1.0.8.apk",
+      "sha256": "d8e45a4ba4e35256d92aa37867c0e077f8fda58bda682757b447e7b663baa66e",
+      "size": 28076645
     },
     "armeabi-v7a": {
-      "file": "telechargement/ScanContact-1.0.7-compatible.apk",
-      "sha256": "a154fff22edd3817736c72e8faef2b29f9c7ce15c891978eabb353a5164255c1",
-      "size": 22823546
+      "file": "telechargement/ScanContact-1.0.8-compatible.apk",
+      "sha256": "4651286ed3d89d2fdb90764a39e78119270b123c0b4097a5fe50a034537dcf6f",
+      "size": 24061147
     }
   }
 }
